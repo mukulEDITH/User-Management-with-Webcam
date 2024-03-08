@@ -1,0 +1,51 @@
+/* Register.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-label {
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+  }
+  
+  .webcam-container {
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin: 1rem 0;
+    overflow: hidden;
+  }
+  
+  .capture-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .capture-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .submit-button {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .submit-button:hover {
+    background-color: #218838;
+  }
+  
